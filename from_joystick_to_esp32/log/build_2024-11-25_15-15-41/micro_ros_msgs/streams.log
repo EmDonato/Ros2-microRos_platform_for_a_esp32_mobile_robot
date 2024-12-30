@@ -1,0 +1,250 @@
+[0.026s] Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake /home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs
+[0.573s] -- The C compiler identification is GNU 11.4.0
+[0.575s] -- The CXX compiler identification is GNU 11.4.0
+[0.575s] -- Detecting C compiler ABI info
+[0.576s] -- Detecting C compiler ABI info - done
+[0.578s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.578s] -- Detecting C compile features
+[0.578s] -- Detecting C compile features - done
+[0.578s] -- Detecting CXX compiler ABI info
+[0.578s] -- Detecting CXX compiler ABI info - done
+[0.579s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.579s] -- Detecting CXX compile features
+[0.579s] -- Detecting CXX compile features - done
+[0.579s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.777s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.894s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.934s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.942s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.952s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.024s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.106s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.682s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.037s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.602s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.606s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.653s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.653s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.654s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.654s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.692s] -- Found PythonExtra: .so  
+[2.758s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.772s] -- Added test 'lint_cmake' to check CMake code style
+[2.779s] -- Added test 'xmllint' to check XML markup files
+[2.794s] -- Configuring done
+[2.855s] -- Generating done
+[2.859s] -- Build files have been written to: /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs
+[2.870s] Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake /home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs
+[2.873s] Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake --build /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs -- -j4 -l4
+[2.936s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.954s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.969s] [  4%] Built target ament_cmake_python_symlink_micro_ros_msgs
+[3.639s] running egg_info
+[3.640s] creating micro_ros_msgs.egg-info
+[3.642s] writing micro_ros_msgs.egg-info/PKG-INFO
+[3.642s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[3.642s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[3.643s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[3.648s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[3.648s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[3.711s] [  4%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[4.090s] [  4%] Built target micro_ros_msgs__cpp
+[4.109s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.122s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.122s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.166s] [ 12%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__functions.c.o[0m
+[4.316s] [ 14%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__functions.c.o[0m
+[4.435s] [ 17%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__functions.c.o[0m
+[4.552s] [ 19%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_c.so[0m
+[4.637s] [ 19%] Built target micro_ros_msgs__rosidl_generator_c
+[4.657s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.027s] [ 23%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/graph__type_support.cpp.o[0m
+[5.186s] [ 25%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/graph__type_support.cpp.o[0m
+[5.299s] [ 27%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o[0m
+[5.790s] [ 29%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/graph__type_support_c.cpp.o[0m
+[5.864s] [ 31%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/node__type_support.cpp.o[0m
+[6.565s] [ 34%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o[0m
+[6.635s] [ 36%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o[0m
+[6.638s] [ 38%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/node__type_support.cpp.o[0m
+[6.720s] [ 40%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/node__type_support_c.cpp.o[0m
+[7.395s] [ 42%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_cpp.so[0m
+[7.497s] [ 42%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[7.515s] [ 44%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/entity__type_support.cpp.o[0m
+[7.648s] [ 46%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/entity__type_support_c.cpp.o[0m
+[7.835s] [ 48%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/entity__type_support.cpp.o[0m
+[7.944s] [ 51%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.692s] [ 53%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.815s] [ 55%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.911s] [ 55%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[8.937s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.097s] [ 57%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[9.236s] [ 59%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.296s] [ 61%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/node__type_support.c.o[0m
+[9.297s] [ 63%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/graph__type_support.c.o[0m
+[9.425s] [ 65%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/entity__type_support.c.o[0m
+[9.508s] [ 65%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[9.536s] [ 68%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.608s] [ 68%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[9.925s] [ 70%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/graph__type_support.cpp.o[0m
+[9.926s] [ 74%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/node__type_support.cpp.o[0m
+[9.926s] [ 74%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/entity__type_support.cpp.o[0m
+[10.008s] [ 76%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_c.so[0m
+[10.082s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_c
+[10.121s] [ 76%] Built target micro_ros_msgs
+[10.161s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.384s] [ 78%] Built target micro_ros_msgs__py
+[11.431s] [ 80%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_graph_s.c.o[0m
+[11.431s] [ 82%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_entity_s.c.o[0m
+[11.433s] [ 85%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_node_s.c.o[0m
+[11.767s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so[0m
+[11.851s] [ 87%] Built target micro_ros_msgs__rosidl_generator_py
+[11.890s] [ 89%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.893s] [ 91%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[11.899s] [ 93%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.160s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.198s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.245s] [ 97%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[12.251s] [100%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.283s] [100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[12.323s] [100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[12.347s] Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake --build /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs -- -j4 -l4
+[12.523s] Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake --install /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs
+[12.539s] -- Install configuration: ""
+[12.539s] -- Execute custom install script
+[12.540s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[12.556s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[12.571s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[12.587s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[12.602s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[12.623s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[12.636s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[12.653s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[12.666s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[12.682s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[12.700s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[12.722s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[12.741s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[12.759s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.778s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[12.797s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[12.814s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[12.833s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[12.848s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[12.863s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.881s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[12.899s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[12.915s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[12.934s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.951s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[12.970s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[12.988s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[13.004s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[13.020s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[13.036s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[13.053s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[13.072s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[13.090s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[13.105s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[13.122s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[13.137s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[13.158s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[13.176s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[13.192s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[13.207s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.223s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[13.239s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[13.255s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[13.272s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[13.290s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[13.310s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO
+[13.328s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt
+[13.343s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt
+[13.358s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt
+[13.375s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py
+[13.393s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[13.409s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.428s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[13.447s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so
+[13.462s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.478s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.494s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.513s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py
+[13.529s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py
+[13.541s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c
+[13.552s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py
+[13.564s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c
+[13.575s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py
+[13.588s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c
+[13.601s] -- Up-to-date symlink: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.602s] -- Up-to-date symlink: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.603s] -- Up-to-date symlink: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.603s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[13.617s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[13.632s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[13.644s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[13.657s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[13.670s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[13.681s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[13.694s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[13.707s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[13.720s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[13.733s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[13.748s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[13.759s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[13.770s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[13.782s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[13.795s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[13.807s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[13.823s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[13.836s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[13.852s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.863s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[13.876s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[13.890s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.904s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.916s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.929s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[13.946s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[13.963s] -- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[13.973s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[13.974s] -- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so" to ""
+[13.974s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[13.975s] -- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[13.975s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[13.975s] -- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so" to ""
+[13.975s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[13.976s] -- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so" to ""
+[13.976s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[13.977s] -- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.977s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[13.978s] -- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[13.978s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[13.979s] -- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so" to ""
+[14.041s] Listing '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...
+[14.041s] Compiling '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py'...
+[14.041s] Listing '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...
+[14.042s] Compiling '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py'...
+[14.042s] Compiling '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py'...
+[14.042s] Compiling '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py'...
+[14.042s] Compiling '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py'...
+[14.049s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[14.050s] -- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so" to ""
+[14.050s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[14.051s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.051s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.052s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.052s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.053s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.053s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[14.054s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.054s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[14.054s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.054s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.055s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.055s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.055s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[14.056s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.056s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[14.056s] -- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[14.060s] Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake --install /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs

@@ -1,0 +1,419 @@
+[0.143s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.143s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fc484742da0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc484742710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc484742710>>, mixin_verb=('build',))
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.399s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/genesis/Desktop/from_joystick_to_esp32'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent) by extensions ['ros']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent) by extension 'ros'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent) by extensions ['cmake', 'python']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent) by extension 'cmake'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent) by extension 'python'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent) by extensions ['python_setup_py']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent) by extension 'python_setup_py'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/build) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/build) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/build) ignored
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/install) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/install) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/install) ignored
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/log) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/log) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/log) ignored
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src) by extension 'ros'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src) by extensions ['cmake', 'python']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src) by extension 'cmake'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src) by extension 'python'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src) by extensions ['python_setup_py']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src) by extension 'python_setup_py'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/micro_ros_setup) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/micro_ros_setup) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/micro_ros_setup) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/micro_ros_setup) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/micro_ros_setup) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/micro_ros_setup) by extension 'ros'
+[0.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agent/src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros) by extension 'ros'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros) by extensions ['cmake', 'python']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros) by extension 'cmake'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros) by extension 'python'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros) by extensions ['python_setup_py']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros) by extension 'python_setup_py'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent) by extension 'ros'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent) by extension 'python'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.426s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agent/src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro_ros_msgs) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro_ros_msgs) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent/src/uros/micro_ros_msgs) by extension 'ros'
+[0.431s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agent/src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extension 'ros'
+[0.432s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_control' with type 'ros.ament_python' and name 'joystick_control'
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.473s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/genesis/Desktop/from_joystick_to_esp32/install
+[0.475s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_target' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.532s] DEBUG:colcon.colcon_core.verb:Building package 'joystick_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control', 'merge_install': False, 'path': '/home/genesis/Desktop/from_joystick_to_esp32/src/joystick_control', 'symlink_install': True, 'test_result_base': None}
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.533s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro_ros_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.534s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup', 'merge_install': False, 'path': '/home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/micro_ros_setup', 'symlink_install': True, 'test_result_base': None}
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.535s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent', 'merge_install': False, 'path': '/home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': True, 'test_result_base': None}
+[0.535s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.537s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.537s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[0.538s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro_ros_msgs'
+[0.540s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.545s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/genesis/Desktop/from_joystick_to_esp32/src/joystick_control' with build type 'ament_python'
+[0.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_control', 'ament_prefix_path')
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control/hook/ament_prefix_path.ps1'
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control/hook/ament_prefix_path.dsv'
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control/hook/ament_prefix_path.sh'
+[0.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.553s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/micro_ros_setup' with build type 'ament_cmake'
+[0.554s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/micro_ros_setup'
+[0.554s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.554s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake /home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs
+[1.101s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/genesis/Desktop/from_joystick_to_esp32/src/joystick_control'
+[1.102s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.102s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake /home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/micro_ros_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup
+[1.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control': PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build --no-deps symlink_data
+[2.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake /home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/micro_ros_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup
+[2.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake --build /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup -- -j4 -l4
+[2.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake --build /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup -- -j4 -l4
+[2.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake --install /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup
+[3.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_control', 'pythonpath_develop')
+[3.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control' returned '0': PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build --no-deps symlink_data
+[3.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/share/joystick_control/hook/pythonpath_develop.ps1'
+[3.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/share/joystick_control/hook/pythonpath_develop.dsv'
+[3.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/share/joystick_control/hook/pythonpath_develop.sh'
+[3.049s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control' for CMake module files
+[3.051s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control' for CMake config files
+[3.052s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib'
+[3.053s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/bin'
+[3.053s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/pkgconfig/joystick_control.pc'
+[3.054s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages'
+[3.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_control', 'pythonpath')
+[3.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control/hook/pythonpath.ps1'
+[3.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control/hook/pythonpath.dsv'
+[3.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control/hook/pythonpath.sh'
+[3.059s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/bin'
+[3.059s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick_control)
+[3.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control/package.ps1'
+[3.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control/package.dsv'
+[3.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control/package.sh'
+[3.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control/package.bash'
+[3.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control/package.zsh'
+[3.080s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/colcon-core/packages/joystick_control)
+[3.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[3.084s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup' for CMake module files
+[3.093s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup' for CMake config files
+[3.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[3.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[3.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[3.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[3.103s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib'
+[3.103s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/bin'
+[3.103s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[3.103s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib/python3.10/site-packages'
+[3.104s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/bin'
+[3.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[3.106s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[3.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[3.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[3.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[3.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[3.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake --install /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup
+[3.149s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[3.150s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup' for CMake module files
+[3.152s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup' for CMake config files
+[3.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[3.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[3.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[3.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[3.157s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib'
+[3.157s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/bin'
+[3.158s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[3.158s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib/python3.10/site-packages'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/bin'
+[3.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[3.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[3.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[3.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[3.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[3.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[3.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake /home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs
+[3.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake --build /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs -- -j4 -l4
+[12.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake --build /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs -- -j4 -l4
+[13.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake --install /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs
+[14.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[14.597s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs' for CMake module files
+[14.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble /usr/bin/cmake --install /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs
+[14.599s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs' for CMake config files
+[14.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[14.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[14.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[14.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[14.623s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib'
+[14.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[14.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[14.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[14.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[14.626s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/bin'
+[14.627s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[14.627s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/python3.10/site-packages'
+[14.628s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/bin'
+[14.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[14.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[14.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[14.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[14.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[14.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[14.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[14.763s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs' for CMake module files
+[14.765s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs' for CMake config files
+[14.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[14.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[14.769s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[14.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[14.771s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib'
+[14.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[14.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[14.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[14.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[14.774s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/bin'
+[14.774s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[14.775s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/python3.10/site-packages'
+[14.775s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/bin'
+[14.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[14.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[14.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[14.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[14.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[14.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[14.780s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[14.781s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro-ROS-Agent/micro_ros_agent'
+[14.781s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.782s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble LD_LIBRARY_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent
+[15.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble LD_LIBRARY_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent
+[15.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble LD_LIBRARY_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent -- -j4 -l4
+[18.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent' returned '2': AMENT_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble LD_LIBRARY_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent -- -j4 -l4
+[18.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[18.897s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent' for CMake module files
+[18.897s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent' for CMake config files
+[18.897s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent/bin'
+[18.898s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[18.898s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent/lib/python3.10/site-packages'
+[18.898s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent/bin'
+[18.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[18.899s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[18.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[18.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[18.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[18.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[18.911s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.912s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.912s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[18.912s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.919s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.919s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.919s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.947s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.948s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genesis/Desktop/from_joystick_to_esp32/install/local_setup.ps1'
+[18.951s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/genesis/Desktop/from_joystick_to_esp32/install/_local_setup_util_ps1.py'
+[18.956s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genesis/Desktop/from_joystick_to_esp32/install/setup.ps1'
+[18.961s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genesis/Desktop/from_joystick_to_esp32/install/local_setup.sh'
+[18.964s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/genesis/Desktop/from_joystick_to_esp32/install/_local_setup_util_sh.py'
+[18.966s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genesis/Desktop/from_joystick_to_esp32/install/setup.sh'
+[18.970s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genesis/Desktop/from_joystick_to_esp32/install/local_setup.bash'
+[18.972s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genesis/Desktop/from_joystick_to_esp32/install/setup.bash'
+[18.977s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genesis/Desktop/from_joystick_to_esp32/install/local_setup.zsh'
+[18.978s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genesis/Desktop/from_joystick_to_esp32/install/setup.zsh'

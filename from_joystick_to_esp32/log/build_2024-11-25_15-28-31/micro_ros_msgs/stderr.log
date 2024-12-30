@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/home/genesis/Desktop/from_joystick_to_esp32/src/uros/micro_ros_msgs/CMakeLists.txt" does not match the source "/home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro_ros_msgs/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

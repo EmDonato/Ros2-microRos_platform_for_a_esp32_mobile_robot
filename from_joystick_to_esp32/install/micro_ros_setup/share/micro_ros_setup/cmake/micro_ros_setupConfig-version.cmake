@@ -1,0 +1,1 @@
+/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup/ament_cmake_core/micro_ros_setupConfig-version.cmake

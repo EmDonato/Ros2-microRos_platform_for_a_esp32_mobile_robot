@@ -1,0 +1,765 @@
+[0.000000] (-) TimerEvent: {}
+[0.000944] (joystick_control) JobQueued: {'identifier': 'joystick_control', 'dependencies': OrderedDict()}
+[0.001021] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.001069] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.001110] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs')])}
+[0.001159] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.008345] (joystick_control) JobStarted: {'identifier': 'joystick_control'}
+[0.016712] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.023153] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.023532] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro_ros_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs'], 'cwd': '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genesis'), ('LC_TIME', 'it_IT.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/genesis/Desktop/agent'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/genesis/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/genesis'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genesis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'genesis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/genesis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Genesis-VPCSE2C5E:@/tmp/.ICE-unix/1185,unix/Genesis-VPCSE2C5E:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/718bcb6c_45a7_479c_a211_680686ca198f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XBDUX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble')]), 'shell': False}
+[0.099318] (-) TimerEvent: {}
+[0.199713] (-) TimerEvent: {}
+[0.300115] (-) TimerEvent: {}
+[0.400491] (-) TimerEvent: {}
+[0.500855] (-) TimerEvent: {}
+[0.573671] (micro_ros_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.576008] (micro_ros_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.576539] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.576783] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.577089] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.579138] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.579334] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.579503] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.579670] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.579834] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.580010] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.580182] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.580346] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.580508] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.580560] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '/home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/micro_ros_setup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup'], 'cwd': '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genesis'), ('LC_TIME', 'it_IT.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/genesis/Desktop/agent'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/genesis/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/genesis'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genesis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'genesis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/genesis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Genesis-VPCSE2C5E:@/tmp/.ICE-unix/1185,unix/Genesis-VPCSE2C5E:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/718bcb6c_45a7_479c_a211_680686ca198f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XBDUX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble')]), 'shell': False}
+[0.601236] (-) TimerEvent: {}
+[0.685800] (micro_ros_setup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.703004] (-) TimerEvent: {}
+[0.778503] (micro_ros_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.803995] (-) TimerEvent: {}
+[0.805717] (micro_ros_setup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.820864] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.894754] (micro_ros_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.904108] (-) TimerEvent: {}
+[0.935089] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.942922] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.951584] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.953634] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.973164] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.973618] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.974542] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.981191] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.006128] (-) TimerEvent: {}
+[1.025388] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.106246] (-) TimerEvent: {}
+[1.106790] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.138016] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.160982] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.161283] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.163303] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.166214] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.206368] (-) TimerEvent: {}
+[1.308006] (-) TimerEvent: {}
+[1.370187] (joystick_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'genesis', 'LC_TIME': 'it_IT.UTF-8', 'ROS_PACKAGE_PATH': ':/home/genesis/Desktop/agent', 'XDG_SESSION_TYPE': 'wayland', 'STM32CubeMX_PATH': '/home/genesis/STM32CubeMX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/genesis', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1185', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/genesis/Desktop/from_joystick_to_esp32/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'genesis', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'genesis', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/genesis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Genesis-VPCSE2C5E:@/tmp/.ICE-unix/1185,unix/Genesis-VPCSE2C5E:/tmp/.ICE-unix/1185', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/718bcb6c_45a7_479c_a211_680686ca198f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XBDUX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.263', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.412008] (-) TimerEvent: {}
+[1.477978] (micro_ros_setup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.512118] (-) TimerEvent: {}
+[1.612386] (micro_ros_setup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.612682] (-) TimerEvent: {}
+[1.660058] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.683168] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.712821] (-) TimerEvent: {}
+[1.814049] (-) TimerEvent: {}
+[1.832594] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.884544] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.890372] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.894228] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.914164] (-) TimerEvent: {}
+[1.918761] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.922498] (micro_ros_setup) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.928403] (micro_ros_setup) StdoutLine: {'line': b'-- Generating done\n'}
+[1.930469] (micro_ros_setup) StdoutLine: {'line': b'-- Build files have been written to: /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup\n'}
+[1.938244] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[1.940967] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[1.941037] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genesis'), ('LC_TIME', 'it_IT.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/genesis/Desktop/agent'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/genesis/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/genesis'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genesis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'genesis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/genesis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Genesis-VPCSE2C5E:@/tmp/.ICE-unix/1185,unix/Genesis-VPCSE2C5E:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/718bcb6c_45a7_479c_a211_680686ca198f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XBDUX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble')]), 'shell': False}
+[1.976341] (joystick_control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.976792] (joystick_control) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.977895] (joystick_control) StdoutLine: {'line': b'running develop\n'}
+[2.012572] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[2.016251] (-) TimerEvent: {}
+[2.038105] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.058277] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[2.074289] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup'], 'cwd': '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genesis'), ('LC_TIME', 'it_IT.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/genesis/Desktop/agent'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/genesis/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/genesis'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genesis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'genesis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/genesis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Genesis-VPCSE2C5E:@/tmp/.ICE-unix/1185,unix/Genesis-VPCSE2C5E:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/718bcb6c_45a7_479c_a211_680686ca198f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XBDUX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble')]), 'shell': False}
+[2.086445] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.087427] (micro_ros_setup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.088128] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[2.104211] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[2.116372] (-) TimerEvent: {}
+[2.120837] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[2.137783] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[2.154764] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[2.172367] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[2.189010] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[2.205125] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[2.216483] (-) TimerEvent: {}
+[2.223774] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[2.241094] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[2.258604] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[2.275685] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[2.294085] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[2.312675] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[2.316708] (-) TimerEvent: {}
+[2.330767] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[2.349574] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[2.365992] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[2.382207] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[2.399354] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[2.416023] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[2.420016] (joystick_control) StdoutLine: {'line': b'running egg_info\n'}
+[2.420319] (-) TimerEvent: {}
+[2.420551] (joystick_control) StdoutLine: {'line': b'writing joystick_control.egg-info/PKG-INFO\n'}
+[2.420771] (joystick_control) StdoutLine: {'line': b'writing dependency_links to joystick_control.egg-info/dependency_links.txt\n'}
+[2.420970] (joystick_control) StdoutLine: {'line': b'writing entry points to joystick_control.egg-info/entry_points.txt\n'}
+[2.421167] (joystick_control) StdoutLine: {'line': b'writing requirements to joystick_control.egg-info/requires.txt\n'}
+[2.421338] (joystick_control) StdoutLine: {'line': b'writing top-level names to joystick_control.egg-info/top_level.txt\n'}
+[2.422655] (joystick_control) StdoutLine: {'line': b"reading manifest file 'joystick_control.egg-info/SOURCES.txt'\n"}
+[2.426889] (joystick_control) StdoutLine: {'line': b"writing manifest file 'joystick_control.egg-info/SOURCES.txt'\n"}
+[2.428947] (joystick_control) StdoutLine: {'line': b'running build_ext\n'}
+[2.429426] (joystick_control) StdoutLine: {'line': b'Creating /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages/joystick-control.egg-link (link to .)\n'}
+[2.432203] (joystick_control) StdoutLine: {'line': b'\n'}
+[2.432498] (joystick_control) StdoutLine: {'line': b'Installed /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control\n'}
+[2.434045] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[2.434435] (joystick_control) StdoutLine: {'line': b'running symlink_data\n'}
+[2.449348] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[2.465845] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[2.478751] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[2.495461] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[2.500181] (joystick_control) CommandEnded: {'returncode': 0}
+[2.516190] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config\n'}
+[2.518183] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos\n'}
+[2.519189] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[2.519466] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[2.523497] (-) TimerEvent: {}
+[2.524095] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[2.524442] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[2.524615] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[2.524782] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[2.524971] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[2.527399] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[2.528326] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[2.529916] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[2.534828] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[2.535056] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[2.535232] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[2.535379] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[2.535553] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[2.535711] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[2.535887] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[2.536085] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[2.536268] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[2.536431] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[2.536602] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[2.536775] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[2.536978] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[2.543347] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[2.543564] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[2.543745] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[2.543915] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[2.544145] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/esp32\n'}
+[2.544325] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[2.544502] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[2.545407] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[2.545874] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[2.546705] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[2.548128] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[2.548333] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[2.548504] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[2.548674] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[2.548859] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[2.549051] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[2.549445] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[2.549629] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[2.549806] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[2.550045] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[2.550240] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[2.550402] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[2.550565] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[2.550730] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[2.550897] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[2.551087] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[2.551260] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[2.551415] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[2.552124] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[2.552363] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[2.552541] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[2.552713] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[2.552877] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[2.553089] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[2.553274] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[2.553456] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[2.553673] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[2.553841] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[2.554043] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[2.554228] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[2.554405] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[2.554582] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[2.554760] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[2.554966] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[2.555171] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[2.555735] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/renesas_ra\n'}
+[2.556673] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[2.556906] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[2.557128] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[2.557292] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[2.557433] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[2.557587] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[2.557737] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[2.557889] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[2.558091] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[2.558263] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[2.558438] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[2.558624] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/zephyr\n'}
+[2.558790] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[2.558998] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[2.559166] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/zephyr/generic\n'}
+[2.559309] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[2.559447] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[2.559595] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[2.560632] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[2.561105] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[2.568290] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[2.570748] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[2.570955] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[2.574887] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[2.575173] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[2.575411] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/generate_lib\n'}
+[2.575589] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[2.575778] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[2.575973] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[2.576930] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[2.577135] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[2.577304] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[2.577502] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[2.577675] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[2.577856] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[2.578057] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[2.578243] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/raspbian\n'}
+[2.578424] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[2.578601] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/raspbian/generic\n'}
+[2.578781] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[2.578953] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[2.579952] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[2.580181] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[2.580350] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[2.580525] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[2.580696] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[2.580878] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[2.581082] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/mbed\n'}
+[2.581272] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/mbed/list_apps.sh\n'}
+[2.581443] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt\n'}
+[2.581606] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/mbed/generic\n'}
+[2.581791] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/mbed/generic/flash.sh\n'}
+[2.583924] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/mbed/generic/board.repos\n'}
+[2.584197] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/mbed/generic/supported_platforms\n'}
+[2.584376] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos\n'}
+[2.584546] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/mbed/generic/package.xml\n'}
+[2.584702] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/mbed/generic/create.sh\n'}
+[2.584874] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/mbed/generic/build.sh\n'}
+[2.585101] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos\n'}
+[2.585274] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/host\n'}
+[2.585442] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[2.585617] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/host/generic\n'}
+[2.585790] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[2.585978] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[2.586181] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[2.586351] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[2.586521] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[2.586690] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[2.586861] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[2.587065] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[2.587246] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[2.587426] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[2.587608] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/utils.sh\n'}
+[2.587780] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[2.587980] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/android\n'}
+[2.588172] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[2.588346] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/android/generic\n'}
+[2.588504] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[2.588658] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[2.588838] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[2.589035] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[2.589211] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[2.589368] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[2.589505] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[2.589645] (joystick_control) JobEnded: {'identifier': 'joystick_control', 'rc': 0}
+[2.590353] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[2.591115] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.603470] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.606956] (micro_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.623919] (-) TimerEvent: {}
+[2.629727] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[2.654296] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.654663] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.654803] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.654948] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.693396] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.724112] (-) TimerEvent: {}
+[2.759236] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.773463] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.779757] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.794823] (micro_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.824441] (-) TimerEvent: {}
+[2.856502] (micro_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.859866] (micro_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs\n'}
+[2.870745] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[2.871599] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[2.872312] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs', '--', '-j4', '-l4'], 'cwd': '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genesis'), ('LC_TIME', 'it_IT.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/genesis/Desktop/agent'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/genesis/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/genesis'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genesis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'genesis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/genesis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Genesis-VPCSE2C5E:@/tmp/.ICE-unix/1185,unix/Genesis-VPCSE2C5E:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/718bcb6c_45a7_479c_a211_680686ca198f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XBDUX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble')]), 'shell': False}
+[2.926020] (-) TimerEvent: {}
+[2.937050] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.954850] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.970001] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_micro_ros_msgs\n'}
+[3.026118] (-) TimerEvent: {}
+[3.126478] (-) TimerEvent: {}
+[3.226864] (-) TimerEvent: {}
+[3.327271] (-) TimerEvent: {}
+[3.427669] (-) TimerEvent: {}
+[3.528058] (-) TimerEvent: {}
+[3.631003] (-) TimerEvent: {}
+[3.639713] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.641465] (micro_ros_msgs) StdoutLine: {'line': b'creating micro_ros_msgs.egg-info\n'}
+[3.642727] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[3.643143] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[3.643374] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[3.644023] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[3.649009] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[3.649375] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[3.711664] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[3.731115] (-) TimerEvent: {}
+[3.831509] (-) TimerEvent: {}
+[3.931910] (-) TimerEvent: {}
+[4.034057] (-) TimerEvent: {}
+[4.090785] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target micro_ros_msgs__cpp\n'}
+[4.109749] (micro_ros_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.122954] (micro_ros_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.123514] (micro_ros_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.134159] (-) TimerEvent: {}
+[4.167151] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__functions.c.o\x1b[0m\n'}
+[4.234275] (-) TimerEvent: {}
+[4.317004] (micro_ros_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__functions.c.o\x1b[0m\n'}
+[4.334394] (-) TimerEvent: {}
+[4.434793] (-) TimerEvent: {}
+[4.435786] (micro_ros_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__functions.c.o\x1b[0m\n'}
+[4.534906] (-) TimerEvent: {}
+[4.553278] (micro_ros_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.635073] (-) TimerEvent: {}
+[4.638037] (micro_ros_msgs) StdoutLine: {'line': b'[ 19%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[4.658573] (micro_ros_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.737000] (-) TimerEvent: {}
+[4.839002] (-) TimerEvent: {}
+[4.939417] (-) TimerEvent: {}
+[5.028337] (micro_ros_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/graph__type_support.cpp.o\x1b[0m\n'}
+[5.039542] (-) TimerEvent: {}
+[5.141999] (-) TimerEvent: {}
+[5.187004] (micro_ros_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/graph__type_support.cpp.o\x1b[0m\n'}
+[5.242118] (-) TimerEvent: {}
+[5.299752] (micro_ros_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o\x1b[0m\n'}
+[5.345319] (-) TimerEvent: {}
+[5.445726] (-) TimerEvent: {}
+[5.546162] (-) TimerEvent: {}
+[5.646589] (-) TimerEvent: {}
+[5.747211] (-) TimerEvent: {}
+[5.791057] (micro_ros_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/graph__type_support_c.cpp.o\x1b[0m\n'}
+[5.847335] (-) TimerEvent: {}
+[5.864929] (micro_ros_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/node__type_support.cpp.o\x1b[0m\n'}
+[5.947470] (-) TimerEvent: {}
+[6.047927] (-) TimerEvent: {}
+[6.148423] (-) TimerEvent: {}
+[6.248909] (-) TimerEvent: {}
+[6.350029] (-) TimerEvent: {}
+[6.450499] (-) TimerEvent: {}
+[6.550963] (-) TimerEvent: {}
+[6.566035] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o\x1b[0m\n'}
+[6.635799] (micro_ros_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[6.639491] (micro_ros_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/node__type_support.cpp.o\x1b[0m\n'}
+[6.651083] (-) TimerEvent: {}
+[6.721292] (micro_ros_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/node__type_support_c.cpp.o\x1b[0m\n'}
+[6.751211] (-) TimerEvent: {}
+[6.851679] (-) TimerEvent: {}
+[6.952162] (-) TimerEvent: {}
+[7.052619] (-) TimerEvent: {}
+[7.153108] (-) TimerEvent: {}
+[7.253587] (-) TimerEvent: {}
+[7.358024] (-) TimerEvent: {}
+[7.395644] (micro_ros_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.458148] (-) TimerEvent: {}
+[7.498223] (micro_ros_msgs) StdoutLine: {'line': b'[ 42%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[7.516448] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/entity__type_support.cpp.o\x1b[0m\n'}
+[7.558276] (-) TimerEvent: {}
+[7.648778] (micro_ros_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/entity__type_support_c.cpp.o\x1b[0m\n'}
+[7.658405] (-) TimerEvent: {}
+[7.758868] (-) TimerEvent: {}
+[7.836393] (micro_ros_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/entity__type_support.cpp.o\x1b[0m\n'}
+[7.861196] (-) TimerEvent: {}
+[7.945100] (micro_ros_msgs) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.964013] (-) TimerEvent: {}
+[8.064442] (-) TimerEvent: {}
+[8.167222] (-) TimerEvent: {}
+[8.267647] (-) TimerEvent: {}
+[8.368090] (-) TimerEvent: {}
+[8.471027] (-) TimerEvent: {}
+[8.571534] (-) TimerEvent: {}
+[8.672300] (-) TimerEvent: {}
+[8.693037] (micro_ros_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.772434] (-) TimerEvent: {}
+[8.816468] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.875032] (-) TimerEvent: {}
+[8.912018] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[8.937988] (micro_ros_msgs) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.975154] (-) TimerEvent: {}
+[9.080076] (-) TimerEvent: {}
+[9.098109] (micro_ros_msgs) StdoutLine: {'line': b'[ 57%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[9.180215] (-) TimerEvent: {}
+[9.237487] (micro_ros_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.280355] (-) TimerEvent: {}
+[9.297347] (micro_ros_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/node__type_support.c.o\x1b[0m\n'}
+[9.298463] (micro_ros_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/graph__type_support.c.o\x1b[0m\n'}
+[9.380494] (-) TimerEvent: {}
+[9.426270] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/entity__type_support.c.o\x1b[0m\n'}
+[9.480619] (-) TimerEvent: {}
+[9.509210] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[9.537023] (micro_ros_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.580753] (-) TimerEvent: {}
+[9.609072] (micro_ros_msgs) StdoutLine: {'line': b'[ 68%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[9.680893] (-) TimerEvent: {}
+[9.781382] (-) TimerEvent: {}
+[9.881833] (-) TimerEvent: {}
+[9.925566] (micro_ros_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/graph__type_support.cpp.o\x1b[0m\n'}
+[9.926954] (micro_ros_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/node__type_support.cpp.o\x1b[0m\n'}
+[9.927389] (micro_ros_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[9.981989] (-) TimerEvent: {}
+[10.009076] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.082143] (-) TimerEvent: {}
+[10.083055] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[10.121875] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs\n'}
+[10.161792] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.182292] (-) TimerEvent: {}
+[10.282714] (-) TimerEvent: {}
+[10.383194] (-) TimerEvent: {}
+[10.483627] (-) TimerEvent: {}
+[10.584023] (-) TimerEvent: {}
+[10.684436] (-) TimerEvent: {}
+[10.784842] (-) TimerEvent: {}
+[10.885342] (-) TimerEvent: {}
+[10.985760] (-) TimerEvent: {}
+[11.086194] (-) TimerEvent: {}
+[11.186624] (-) TimerEvent: {}
+[11.287156] (-) TimerEvent: {}
+[11.385100] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target micro_ros_msgs__py\n'}
+[11.387390] (-) TimerEvent: {}
+[11.432172] (micro_ros_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_graph_s.c.o\x1b[0m\n'}
+[11.432594] (micro_ros_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_entity_s.c.o\x1b[0m\n'}
+[11.433738] (micro_ros_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_node_s.c.o\x1b[0m\n'}
+[11.487542] (-) TimerEvent: {}
+[11.588059] (-) TimerEvent: {}
+[11.688603] (-) TimerEvent: {}
+[11.768396] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[11.788742] (-) TimerEvent: {}
+[11.851758] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[11.888895] (-) TimerEvent: {}
+[11.891230] (micro_ros_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.894154] (micro_ros_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.899173] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.989181] (-) TimerEvent: {}
+[12.089708] (-) TimerEvent: {}
+[12.161534] (micro_ros_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.189864] (-) TimerEvent: {}
+[12.199315] (micro_ros_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.246360] (micro_ros_msgs) StdoutLine: {'line': b'[ 97%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[12.252058] (micro_ros_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.284336] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[12.289995] (-) TimerEvent: {}
+[12.323842] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.347658] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[12.390123] (-) TimerEvent: {}
+[12.490749] (-) TimerEvent: {}
+[12.521352] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[12.521890] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs'], 'cwd': '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genesis'), ('LC_TIME', 'it_IT.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/genesis/Desktop/agent'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/genesis/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/genesis'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genesis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'genesis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/genesis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Genesis-VPCSE2C5E:@/tmp/.ICE-unix/1185,unix/Genesis-VPCSE2C5E:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/718bcb6c_45a7_479c_a211_680686ca198f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XBDUX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble')]), 'shell': False}
+[12.540027] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.540608] (micro_ros_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.541354] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[12.557262] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[12.572175] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[12.588033] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[12.590866] (-) TimerEvent: {}
+[12.603494] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[12.624162] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[12.637034] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[12.654020] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[12.667428] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[12.683177] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[12.691053] (-) TimerEvent: {}
+[12.701213] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[12.723202] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[12.742163] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[12.760151] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.778864] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[12.791176] (-) TimerEvent: {}
+[12.797899] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[12.814914] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[12.834087] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[12.849436] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[12.864428] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.882106] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[12.891397] (-) TimerEvent: {}
+[12.900386] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[12.916363] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[12.934536] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.952326] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[12.970906] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[12.989459] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[12.991496] (-) TimerEvent: {}
+[13.004949] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[13.020858] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[13.037018] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[13.053911] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[13.073085] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[13.091284] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[13.091709] (-) TimerEvent: {}
+[13.106543] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[13.122101] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[13.138158] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[13.158777] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.176784] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.191886] (-) TimerEvent: {}
+[13.193353] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.208230] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.223685] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.240418] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.255990] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.273140] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[13.290971] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[13.291969] (-) TimerEvent: {}
+[13.311297] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO\n'}
+[13.328756] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[13.344009] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[13.358800] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt\n'}
+[13.375572] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py\n'}
+[13.392155] (-) TimerEvent: {}
+[13.393548] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[13.409810] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.428695] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.448241] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[13.462730] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.479009] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.492289] (-) TimerEvent: {}
+[13.495044] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.514330] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py\n'}
+[13.530175] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py\n'}
+[13.541957] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[13.553538] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py\n'}
+[13.565080] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[13.576588] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py\n'}
+[13.588667] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[13.592418] (-) TimerEvent: {}
+[13.602437] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.603013] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.603748] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.604204] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[13.618587] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[13.632816] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[13.644641] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[13.658343] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[13.670678] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[13.682400] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[13.692538] (-) TimerEvent: {}
+[13.695114] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[13.708523] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[13.721022] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[13.734182] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[13.749036] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[13.759877] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[13.771507] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[13.782904] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[13.792689] (-) TimerEvent: {}
+[13.796064] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[13.808186] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[13.823721] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[13.836829] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[13.852751] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.864493] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.877303] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.891149] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.892776] (-) TimerEvent: {}
+[13.904623] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.917427] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.930093] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[13.946760] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[13.964365] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[13.974276] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[13.974902] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so" to ""\n'}
+[13.975194] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[13.975789] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.976084] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[13.976493] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.976734] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[13.977354] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so" to ""\n'}
+[13.977666] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.978258] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.978599] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[13.979288] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.979589] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[13.980046] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[13.992893] (-) TimerEvent: {}
+[14.042019] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...\n"}
+[14.042374] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py'...\n"}
+[14.042586] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...\n"}
+[14.042780] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py'...\n"}
+[14.043029] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py'...\n"}
+[14.043240] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py'...\n"}
+[14.043423] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py'...\n"}
+[14.050402] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[14.051131] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so" to ""\n'}
+[14.051524] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[14.051805] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.052099] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.052947] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.053244] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.054296] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.054608] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[14.054812] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.055139] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[14.055361] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.055570] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.055880] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.056208] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.056438] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[14.056759] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.057036] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[14.057260] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.060649] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[14.093187] (-) TimerEvent: {}
+[14.193492] (-) TimerEvent: {}
+[14.243392] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[14.246327] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[14.258807] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[14.259728] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro-ROS-Agent/micro_ros_agent', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent'], 'cwd': '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genesis'), ('LC_TIME', 'it_IT.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/genesis/Desktop/agent'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/genesis/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/genesis'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genesis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'genesis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/genesis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Genesis-VPCSE2C5E:@/tmp/.ICE-unix/1185,unix/Genesis-VPCSE2C5E:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/718bcb6c_45a7_479c_a211_680686ca198f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XBDUX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble')]), 'shell': False}
+[14.293648] (-) TimerEvent: {}
+[14.353137] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[14.363567] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.393777] (-) TimerEvent: {}
+[14.469320] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[14.483210] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[14.483674] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[14.484350] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[14.493895] (-) TimerEvent: {}
+[14.573867] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[14.584996] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[14.594028] (-) TimerEvent: {}
+[14.694488] (-) TimerEvent: {}
+[14.702428] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[14.717427] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[14.717801] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[14.718929] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[14.778694] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.784551] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[14.785618] (micro_ros_agent) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[14.785960] (micro_ros_agent) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[14.786191] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[14.786405] (micro_ros_agent) StderrLine: {'line': b'    AMENT_CMAKE_SYMLINK_INSTALL\n'}
+[14.786700] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[14.786894] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[14.787117] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent\n'}
+[14.793387] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[14.794401] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[14.794478] (-) TimerEvent: {}
+[14.795995] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent', '--', '-j4', '-l4'], 'cwd': '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genesis'), ('LC_TIME', 'it_IT.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/genesis/Desktop/agent'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/genesis/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/genesis'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genesis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'genesis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/genesis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Genesis-VPCSE2C5E:@/tmp/.ICE-unix/1185,unix/Genesis-VPCSE2C5E:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/718bcb6c_45a7_479c_a211_680686ca198f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XBDUX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1572c5fd5869b622594e2b26674457d0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble')]), 'shell': False}
+[14.868022] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'xrceagent'\x1b[0m\n"}
+[14.894642] (-) TimerEvent: {}
+[14.973917] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'xrceagent'\x1b[0m\n"}
+[14.994761] (-) TimerEvent: {}
+[15.004637] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'xrceagent'...\n"}
+[15.094882] (-) TimerEvent: {}
+[15.195315] (-) TimerEvent: {}
+[15.295749] (-) TimerEvent: {}
+[15.396171] (-) TimerEvent: {}
+[15.496602] (-) TimerEvent: {}
+[15.596993] (-) TimerEvent: {}
+[15.697493] (-) TimerEvent: {}
+[15.798979] (-) TimerEvent: {}
+[15.899528] (-) TimerEvent: {}
+[16.000010] (-) TimerEvent: {}
+[16.100503] (-) TimerEvent: {}
+[16.201042] (-) TimerEvent: {}
+[16.301624] (-) TimerEvent: {}
+[16.402448] (-) TimerEvent: {}
+[16.503177] (-) TimerEvent: {}
+[16.604060] (-) TimerEvent: {}
+[16.689821] (micro_ros_agent) StderrLine: {'line': b"Switched to a new branch 'ros2'\n"}
+[16.690090] (micro_ros_agent) StdoutLine: {'line': b"Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.\n"}
+[16.704130] (-) TimerEvent: {}
+[16.765764] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[16.804318] (-) TimerEvent: {}
+[16.904695] (-) TimerEvent: {}
+[17.005269] (-) TimerEvent: {}
+[17.106318] (-) TimerEvent: {}
+[17.207428] (-) TimerEvent: {}
+[17.308371] (-) TimerEvent: {}
+[17.314441] (micro_ros_agent) StderrLine: {'line': b'HEAD is now at 7362281 Release v2.4.3\n'}
+[17.356319] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[17.383497] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[17.399514] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[17.408502] (-) TimerEvent: {}
+[17.476074] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[17.484679] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[17.508616] (-) TimerEvent: {}
+[17.568632] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[17.592255] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[17.592752] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[17.593885] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[17.608737] (-) TimerEvent: {}
+[17.671841] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[17.683581] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[17.708862] (-) TimerEvent: {}
+[17.793277] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[17.805180] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[17.805569] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[17.806209] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[17.808915] (-) TimerEvent: {}
+[17.812275] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[17.900331] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[17.900633] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[17.909027] (-) TimerEvent: {}
+[17.996722] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[17.998431] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[18.009123] (-) TimerEvent: {}
+[18.016818] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[18.020285] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[18.021237] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[18.050808] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[18.098915] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'uagent'\x1b[0m\n"}
+[18.109267] (-) TimerEvent: {}
+[18.193677] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo download step for 'uagent'\x1b[0m\n"}
+[18.209381] (-) TimerEvent: {}
+[18.228028] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mNo update step for 'uagent'\x1b[0m\n"}
+[18.259408] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'uagent'\x1b[0m\n"}
+[18.292617] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'uagent'\x1b[0m\n"}
+[18.304813] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[18.309480] (-) TimerEvent: {}
+[18.314991] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[18.331211] (micro_ros_agent) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:153 (find_package):\n'}
+[18.331516] (micro_ros_agent) StderrLine: {'line': b'  Could not find a configuration file for package "fastcdr" that is\n'}
+[18.331656] (micro_ros_agent) StderrLine: {'line': b'  compatible with requested version "2".\n'}
+[18.331790] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[18.331918] (micro_ros_agent) StderrLine: {'line': b'  The following configuration files were considered but not accepted:\n'}
+[18.332075] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[18.332201] (micro_ros_agent) StderrLine: {'line': b'    /opt/ros/humble/lib/cmake/fastcdr/fastcdr-config.cmake, version: 1.0.24\n'}
+[18.332338] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[18.332459] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[18.332579] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[18.332699] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[18.332831] (micro_ros_agent) StdoutLine: {'line': b'See also "/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/CMakeOutput.log".\n'}
+[18.333528] (micro_ros_agent) StderrLine: {'line': b'gmake[5]: *** [CMakeFiles/uagent.dir/build.make:93: uagent-prefix/src/uagent-stamp/uagent-configure] Error 1\n'}
+[18.333828] (micro_ros_agent) StderrLine: {'line': b'gmake[4]: *** [CMakeFiles/Makefile2:83: CMakeFiles/uagent.dir/all] Error 2\n'}
+[18.334068] (micro_ros_agent) StderrLine: {'line': b'gmake[3]: *** [Makefile:91: all] Error 2\n'}
+[18.334579] (micro_ros_agent) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:86: agent/src/xrceagent-stamp/xrceagent-build] Error 2\n'}
+[18.334974] (micro_ros_agent) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2\n'}
+[18.335211] (micro_ros_agent) StderrLine: {'line': b'gmake: *** [Makefile:91: all] Error 2\n'}
+[18.337659] (micro_ros_agent) CommandEnded: {'returncode': 2}
+[18.364314] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 2}
+[18.375447] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/uagent.dir
+/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/edit_cache.dir
+/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/rebuild_cache.dir

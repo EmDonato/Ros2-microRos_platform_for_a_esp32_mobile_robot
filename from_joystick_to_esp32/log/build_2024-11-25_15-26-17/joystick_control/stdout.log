@@ -1,0 +1,29 @@
+running develop
+Removing /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages/joystick-control.egg-link (link to .)
+running egg_info
+writing ../../build/joystick_control/joystick_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/joystick_control/joystick_control.egg-info/dependency_links.txt
+writing entry points to ../../build/joystick_control/joystick_control.egg-info/entry_points.txt
+writing requirements to ../../build/joystick_control/joystick_control.egg-info/requires.txt
+writing top-level names to ../../build/joystick_control/joystick_control.egg-info/top_level.txt
+reading manifest file '../../build/joystick_control/joystick_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/joystick_control/joystick_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build
+creating /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build/lib
+creating /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build/lib/joystick_control
+copying joystick_control/__init__.py -> /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build/lib/joystick_control
+running install
+running install_lib
+creating /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages/joystick_control
+copying /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build/lib/joystick_control/__init__.py -> /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages/joystick_control
+byte-compiling /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages/joystick_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/joystick_control -> /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control
+copying launch/joystick.launch.py -> /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control/launch
+running install_egg_info
+Copying ../../build/joystick_control/joystick_control.egg-info to /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages/joystick_control-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/install.log'

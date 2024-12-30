@@ -1,0 +1,81 @@
+[0.015s] Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble LD_LIBRARY_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent
+[0.107s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.237s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.237s] -- Detecting C compile features
+[0.238s] -- Detecting C compile features - done
+[0.328s] -- The CXX compiler identification is GNU 11.4.0
+[0.339s] -- Detecting CXX compiler ABI info
+[0.456s] -- Detecting CXX compiler ABI info - done
+[0.471s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.472s] -- Detecting CXX compile features
+[0.473s] -- Detecting CXX compile features - done
+[0.533s] -- Configuring done
+[0.538s] -- Generating done
+[0.539s] [33mCMake Warning:
+[0.540s]   Manually-specified variables were not used by the project:
+[0.540s] 
+[0.540s]     AMENT_CMAKE_SYMLINK_INSTALL
+[0.540s] 
+[0.541s] [0m
+[0.541s] -- Build files have been written to: /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent
+[0.547s] Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble LD_LIBRARY_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/genesis/Desktop/from_joystick_to_esp32/src/agent/src/uros/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_agent
+[0.550s] Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble LD_LIBRARY_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent -- -j4 -l4
+[0.622s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[0.728s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[0.758s] Cloning into 'xrceagent'...
+[2.444s] Switched to a new branch 'ros2'
+[2.444s] Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.
+[2.520s] [ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[3.068s] HEAD is now at 7362281 Release v2.4.3
+[3.110s] [ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[3.137s] [ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[3.153s] loading initial cache file /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[3.230s] -- The C compiler identification is GNU 11.4.0
+[3.238s] -- Detecting C compiler ABI info
+[3.322s] -- Detecting C compiler ABI info - done
+[3.346s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.347s] -- Detecting C compile features
+[3.348s] -- Detecting C compile features - done
+[3.426s] -- The CXX compiler identification is GNU 11.4.0
+[3.437s] -- Detecting CXX compiler ABI info
+[3.547s] -- Detecting CXX compiler ABI info - done
+[3.559s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.559s] -- Detecting CXX compile features
+[3.560s] -- Detecting CXX compile features - done
+[3.566s] -- Looking for pthread.h
+[3.654s] -- Looking for pthread.h - found
+[3.654s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.751s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.752s] -- Found Threads: TRUE  
+[3.771s] -- Configuring done
+[3.774s] -- Generating done
+[3.775s] -- Build files have been written to: /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent/agent/src/xrceagent-build
+[3.805s] [ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[3.853s] [ 12%] [34m[1mCreating directories for 'uagent'[0m
+[3.948s] [ 25%] [34m[1mNo download step for 'uagent'[0m
+[3.982s] [ 37%] [34m[1mNo update step for 'uagent'[0m
+[4.013s] [ 50%] [34m[1mNo patch step for 'uagent'[0m
+[4.046s] [ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+[4.059s] loading initial cache file /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[4.069s] -- Setting build type to 'Release' as none was specified.
+[4.085s] [31mCMake Error at CMakeLists.txt:153 (find_package):
+[4.085s]   Could not find a configuration file for package "fastcdr" that is
+[4.085s]   compatible with requested version "2".
+[4.086s] 
+[4.086s]   The following configuration files were considered but not accepted:
+[4.086s] 
+[4.086s]     /opt/ros/humble/lib/cmake/fastcdr/fastcdr-config.cmake, version: 1.0.24
+[4.086s] 
+[4.086s] 
+[4.086s] [0m
+[4.086s] -- Configuring incomplete, errors occurred!
+[4.087s] See also "/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/CMakeOutput.log".
+[4.087s] gmake[5]: *** [CMakeFiles/uagent.dir/build.make:93: uagent-prefix/src/uagent-stamp/uagent-configure] Error 1
+[4.088s] gmake[4]: *** [CMakeFiles/Makefile2:83: CMakeFiles/uagent.dir/all] Error 2
+[4.088s] gmake[3]: *** [Makefile:91: all] Error 2
+[4.088s] gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:86: agent/src/xrceagent-stamp/xrceagent-build] Error 2
+[4.089s] gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+[4.089s] gmake: *** [Makefile:91: all] Error 2
+[4.092s] Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent' returned '2': AMENT_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble LD_LIBRARY_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent -- -j4 -l4

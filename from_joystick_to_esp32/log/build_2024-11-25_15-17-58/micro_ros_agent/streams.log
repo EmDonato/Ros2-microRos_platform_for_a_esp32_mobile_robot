@@ -1,0 +1,23 @@
+[0.024s] Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble LD_LIBRARY_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent -- -j4 -l4
+[0.082s] [  6%] [34m[1mPerforming update step for 'xrceagent'[0m
+[0.779s] HEAD is now at 7362281 Release v2.4.3
+[0.836s] [ 12%] [34m[1mNo patch step for 'xrceagent'[0m
+[0.871s] [ 18%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[0.882s] loading initial cache file /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[0.892s] -- Setting build type to 'Release' as none was specified.
+[0.907s] -- Configuring incomplete, errors occurred!
+[0.908s] See also "/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/CMakeOutput.log".
+[0.908s] [31mCMake Error at CMakeLists.txt:153 (find_package):
+[0.908s]   Could not find a configuration file for package "fastcdr" that is
+[0.908s]   compatible with requested version "2".
+[0.908s] 
+[0.908s]   The following configuration files were considered but not accepted:
+[0.909s] 
+[0.909s]     /opt/ros/humble/lib/cmake/fastcdr/fastcdr-config.cmake, version: 1.0.24
+[0.909s] 
+[0.909s] 
+[0.909s] [0m
+[0.910s] gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:93: agent/src/xrceagent-stamp/xrceagent-configure] Error 1
+[0.910s] gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+[0.910s] gmake: *** [Makefile:91: all] Error 2
+[0.913s] Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent' returned '2': AMENT_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control:/opt/ros/humble LD_LIBRARY_PATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/genesis/Desktop/from_joystick_to_esp32/build/micro_ros_agent -- -j4 -l4

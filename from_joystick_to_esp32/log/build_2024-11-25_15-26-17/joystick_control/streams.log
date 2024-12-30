@@ -1,0 +1,35 @@
+[1.051s] Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control': PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build
+[1.447s] running develop
+[1.448s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.448s]   warnings.warn(
+[1.728s] Removing /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages/joystick-control.egg-link (link to .)
+[1.768s] Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control' returned '0': PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build
+[1.771s] Invoking command in '/home/genesis/Desktop/from_joystick_to_esp32/src/joystick_control': PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_control build --build-base /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build install --record /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/install.log --single-version-externally-managed install_data --force
+[2.095s] running egg_info
+[2.096s] writing ../../build/joystick_control/joystick_control.egg-info/PKG-INFO
+[2.096s] writing dependency_links to ../../build/joystick_control/joystick_control.egg-info/dependency_links.txt
+[2.096s] writing entry points to ../../build/joystick_control/joystick_control.egg-info/entry_points.txt
+[2.096s] writing requirements to ../../build/joystick_control/joystick_control.egg-info/requires.txt
+[2.097s] writing top-level names to ../../build/joystick_control/joystick_control.egg-info/top_level.txt
+[2.099s] reading manifest file '../../build/joystick_control/joystick_control.egg-info/SOURCES.txt'
+[2.100s] writing manifest file '../../build/joystick_control/joystick_control.egg-info/SOURCES.txt'
+[2.100s] running build
+[2.101s] running build_py
+[2.101s] creating /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build
+[2.101s] creating /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build/lib
+[2.101s] creating /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build/lib/joystick_control
+[2.101s] copying joystick_control/__init__.py -> /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build/lib/joystick_control
+[2.101s] running install
+[2.101s] running install_lib
+[2.102s] creating /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages/joystick_control
+[2.103s] copying /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build/lib/joystick_control/__init__.py -> /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages/joystick_control
+[2.103s] byte-compiling /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages/joystick_control/__init__.py to __init__.cpython-310.pyc
+[2.103s] running install_data
+[2.104s] copying resource/joystick_control -> /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/ament_index/resource_index/packages
+[2.104s] copying package.xml -> /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control
+[2.104s] copying launch/joystick.launch.py -> /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control/launch
+[2.104s] running install_egg_info
+[2.107s] Copying ../../build/joystick_control/joystick_control.egg-info to /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages/joystick_control-0.0.0-py3.10.egg-info
+[2.109s] running install_scripts
+[2.138s] writing list of installed files to '/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/install.log'
+[2.177s] Invoked command in '/home/genesis/Desktop/from_joystick_to_esp32/src/joystick_control' returned '0': PYTHONPATH=/home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_control build --build-base /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/build install --record /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/install.log --single-version-externally-managed install_data --force

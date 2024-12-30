@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating joystick_control.egg-info
+writing joystick_control.egg-info/PKG-INFO
+writing dependency_links to joystick_control.egg-info/dependency_links.txt
+writing entry points to joystick_control.egg-info/entry_points.txt
+writing requirements to joystick_control.egg-info/requires.txt
+writing top-level names to joystick_control.egg-info/top_level.txt
+writing manifest file 'joystick_control.egg-info/SOURCES.txt'
+reading manifest file 'joystick_control.egg-info/SOURCES.txt'
+writing manifest file 'joystick_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages/joystick-control.egg-link (link to .)
+
+Installed /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control
+running symlink_data
+creating /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/ament_index
+creating /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/ament_index/resource_index
+creating /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/ament_index/resource_index/packages
+symbolically linking /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/resource/joystick_control -> /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/ament_index/resource_index/packages
+symbolically linking /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/package.xml -> /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control
+creating /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control/launch
+symbolically linking /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control/launch/joystick.launch.py -> /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/share/joystick_control/launch

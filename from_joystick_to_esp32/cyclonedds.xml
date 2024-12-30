@@ -1,0 +1,7 @@
+<CycloneDDS>
+  <Domain id="0">
+    <General>
+      <NetworkInterfaceAddress>auto</NetworkInterfaceAddress>
+    </General>
+  </Domain>
+</CycloneDDS>

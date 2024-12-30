@@ -1,0 +1,16 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing joystick_control.egg-info/PKG-INFO
+writing dependency_links to joystick_control.egg-info/dependency_links.txt
+writing entry points to joystick_control.egg-info/entry_points.txt
+writing requirements to joystick_control.egg-info/requires.txt
+writing top-level names to joystick_control.egg-info/top_level.txt
+reading manifest file 'joystick_control.egg-info/SOURCES.txt'
+writing manifest file 'joystick_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/genesis/Desktop/from_joystick_to_esp32/install/joystick_control/lib/python3.10/site-packages/joystick-control.egg-link (link to .)
+
+Installed /home/genesis/Desktop/from_joystick_to_esp32/build/joystick_control
+running symlink_data
